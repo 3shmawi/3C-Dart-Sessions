@@ -19,17 +19,27 @@ void main() {
   // /
   // %
 
-
-  //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
   /// Loops
 
   //for
   //while
 
-  for (int i = 0; i <= 5; i++) {
-    print('Mohamed');
-  }
+  // for (int i = 0; i < 10; i++) {
+  //   print('Mohamed');
+  // }
 
+  // bool even = false;
+  // if (even = true) {
+  //   print("It is even!");
+  // }
 
+  /// functions
 
+  sumTwoNumbers(2, 3);
+}
+
+int sumTwoNumbers(int number1, int number2) {
+  int sum = number1 + number2;
+  print(sum);
+  return sum;
 }
